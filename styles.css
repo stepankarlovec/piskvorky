@@ -1,9 +1,55 @@
+body, p, h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #212121;
+}
+.pageWrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: #212121;
+}
+.text-color-purple{
+    color:#b71c1c;
+}
+.layout{
+    padding-top: 23vh;
+    display: flex;
+    justify-content: center;
+}
+.information_table{
+    color: #E65100;
+    padding: 0;
+    margin: 20px;
+}
+.information_table h1{
+    font-size: 60px;
+}
 .mainCanvas{
     display: flex;
+    margin: 20px
 }
 .square{
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    background-color: red;
+    background-color: #E65100;
+    font-size: 0px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;   
+}
+.playAgainButton{
+    opacity: 0;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    background-color: #01579B;
+    border: 1px solid rgb(54, 54, 54);
+    margin-top: 25px;
+}
+.playAgainButton:hover{
+    background-color: #00467c;
 }
